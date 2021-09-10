@@ -905,9 +905,7 @@
 
     aput v5, v4, v6
 
-    invoke-static {v4}, Landroid/util/OpFeatures;->isSupport([I)Z
-
-    move-result v4
+    const/16 v4, 0x01
 
     if-eqz v4, :cond_0
 
@@ -1663,9 +1661,7 @@
 
     aput v4, v2, v3
 
-    invoke-static {v2}, Landroid/util/OpFeatures;->isSupport([I)Z
-
-    move-result v2
+    const/16 v2, 0x01
 
     if-eqz v2, :cond_0
 
@@ -2426,9 +2422,7 @@
 
     aput v7, v5, v6
 
-    invoke-static {v5}, Landroid/util/OpFeatures;->isSupport([I)Z
-
-    move-result v5
+    const/16 v5, 0x01
 
     if-eqz v5, :cond_1
 
